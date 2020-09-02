@@ -1,0 +1,12 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(1fr); */
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+
+.one, .two, .three, .four {
+    font-weight: bold;
+}
